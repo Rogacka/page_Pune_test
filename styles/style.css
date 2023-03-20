@@ -1,0 +1,166 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: black !important;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: white !important;
+	
+}
+
+.background-img {
+	height: 300vh;
+	background-image: url(../images/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.main-wrap {
+	height: 100vh;
+}
+
+.header {
+	width: 91%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 64px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+ul {
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0;
+}
+
+.li-padding {
+	padding: 0 50px 0;
+}
+
+.main-nav a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	text-decoration: none;
+}
+
+.head-serch img, p {
+	display: inline-block;
+	margin: 0;
+}
+
+.wrapper {
+	display: flex;
+	padding: 200px 0 0 70px;
+}
+
+
+.title {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-subtitle {
+	display: flex;
+	color: #FFC178;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+
+.line {
+	margin: 8px 0;
+	width: 72px;
+    height: 2px;
+    background-color: #FFC178;
+}
+
+.main-subtitle p {
+	padding: 0 26px 0 32px;
+}
+
+.main-title {
+	font-weight: 400;
+	font-size: 88px;
+	line-height: 1.1; 
+	margin-top: 26px;
+}
+
+.main-title__main {
+	font-weight: 700;
+	font-size: 96px;
+}
+
+
+
+.follow ul {
+	display: flex;
+	flex-direction: column;
+	padding-top: 62px;
+}
+
+.fol-li {
+	margin: 8px; 
+}
+
+.arrow {
+	display: flex;
+	justify-content: center;
+	margin-top: 66px;
+}
+
+.arrow a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+	.background-img {
+		background-image: url(../images/fonimg.png);
+		height: 200vh;
+	}
+	
+	.header {
+		width: fit-content;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.wrapper {
+		width: fit-content;
+		display: flex;
+		padding: 100px 0 0 34px;
+	}
+
+	.title {
+		margin-left: 20px;
+		margin-right: 0;
+	}
+
+	.main-title__main {
+		font-size: 48px;
+	}
+
+	.main-title {
+	 	font-size: 44px;
+	}
+
+	.main-subtitle {
+		font-size: 8px;
+	}
+}
